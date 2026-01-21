@@ -30,9 +30,9 @@ const Slider = () => {
   return (
     <div className="bg-black w-full">
       <div className="padding mt-10">
-        <h2 className="text-white text-lg md:text-xl font-semibold mb-2">
+        <span className="text-white text-2xl font-bold mb-2">
           Trending Now
-        </h2>
+        </span>
         <div className="flex items-center py-15">
           <MultiCarousel items={data} />
         </div>
