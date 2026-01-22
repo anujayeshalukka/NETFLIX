@@ -50,7 +50,7 @@ const Header = () => {
                Starts at ₹149. Cancel at any time.
             </p>
             <p className="text-white text-base mb-5">
-               Ready to watch? Enter your email to create or restart your membership.
+               Ready to watch? Enter your demo email to create or restart your membership.
             </p>
             <div className="flex">
               <input
