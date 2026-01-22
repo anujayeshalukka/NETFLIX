@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../assets/logo.png";
 import banner from '../assets/banner.jpg';
 
+
 const Header = () => {
   return (
     <div className="relative w-full h-screen bg-cover bg-center bg-no-repeat padding align-middle" style={{ backgroundImage: `url(${banner})` }}>
@@ -11,9 +12,27 @@ const Header = () => {
 
       <div className="flex gap-5">
         <a className=" cursor-pointer border px-4 h-9 bg-transparent py-1 rounded flex gap-3 items-center">
-          <img/>
+          <svg
+  className="w-5 h-5 text-white"
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  viewBox="0 0 24 24"
+  stroke="currentColor"
+  strokeWidth="2"
+>
+  <path
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    d="M12 2a10 10 0 100 20 10 10 0 000-20z"
+  />
+  <path
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"
+  />
+</svg>
           English
-          <svg class="w-3 h-3 text-white dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 10">
+          <svg className="w-3 h-3 text-white dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 10">
           <path d="M15.434 1.235A2 2 0 0 0 13.586 0H2.414A2 2 0 0 0 1 3.414L6.586 9a2 2 0 0 0 2.828 0L15 3.414a2 2 0 0 0 .434-2.179Z"/>
           </svg>
         </a>
