@@ -7,7 +7,12 @@ const Footeremail = () => {
             <p className="text-white text-sm md:text-lg mb-5">Ready to watch? Enter your email to create or restart your membership.</p>
             <div className="flex max-w-3xl w-full">
               
-              <input type="text" id="input-group-1" class=" bg-black/70 border-gray-400/70  block w-full ps-4 pe-4 py-3.5 bg-neutral-secondary-medium border rounded-sm border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand shadow-xs placeholder:text-body" placeholder="Email address"></input>
+             <input
+  type="email"
+  id="email-secondary"
+  className="bg-black/70 border-gray-400/70 block w-full ps-4 pe-4 py-3.5 bg-neutral-secondary-medium border rounded-sm text-heading text-sm focus:ring-brand focus:border-brand shadow-xs placeholder:text-body"
+  placeholder="Confirm email address"
+/>
               <a className="bg-red-600 cursor-pointer text-white ps-4 pe-4 py-3.5 whitespace-nowrap flex items-center justify-center rounded text-xl font-semibold ml-3">
                  Get Started
                 <svg class="w-3 h-3 text-white dark:text-white ml-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 8 14">

@@ -29,7 +29,7 @@ const Footer = () => {
                 <div className="relative mb-6">
                     <div className="relative inline-block">
                         <Globe className="absolute left-2 top-1/2 -translate-y-1/2 w-4 h-4 text-white" />
-                        <select className="bg-black text-white border border-[#5d5d5d] rounded px-8 py-1.5 appearance-none cursor-pointer hover:bg-white/5 bg-transparent text-sm focus:outline-none focus:ring-1 focus:ring-white">
+                        <select className=" text-white border border-[#5d5d5d] rounded px-8 py-1.5 appearance-none cursor-pointer hover:bg-white/5 bg-transparent text-sm focus:outline-none focus:ring-1 focus:ring-white">
                             <option>English</option>
                             <option>Hindi</option>
                         </select>
