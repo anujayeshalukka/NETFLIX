@@ -14,7 +14,7 @@ const Cards = () => {
           <div className="h-full flex flex-col w-full bg-base-100 card-md shadow-sm 
                     bg-[linear-gradient(149deg,_#192247_0%,_#210e17_96.86%)] 
                     rounded-3xl">
-            <div className="py-10 px-7 flex flex-col flex-grow">
+            <div className="py-10 px-7 flex flex-col grow">
               <h2 className="text-2xl font-bold text-white">Enjoy on your TV</h2>
               <p className="text-gray-300 mt-2">
                 A card component has a figure, a body part, and inside body there are title and actions parts
@@ -29,7 +29,7 @@ const Cards = () => {
           <div className="h-full flex flex-col w-full bg-base-100 card-md shadow-sm 
                     bg-[linear-gradient(149deg,_#192247_0%,_#210e17_96.86%)] 
                     rounded-3xl">
-            <div className="py-10 px-7 flex flex-col flex-grow">
+            <div className="py-10 px-7 flex flex-col grow">
               <h2 className="text-2xl font-bold text-white">Download your shows to watch offline</h2>
               <p className="text-gray-300 mt-2">
                 Save your favourites easily and always have something to watch.
@@ -44,7 +44,7 @@ const Cards = () => {
           <div className="h-full flex flex-col w-full bg-base-100 card-md shadow-sm 
                     bg-[linear-gradient(149deg,_#192247_0%,_#210e17_96.86%)] 
                     rounded-3xl">
-            <div className="py-10 px-7 flex flex-col flex-grow">
+            <div className="py-10 px-7 flex flex-col grow">
               <h2 className="text-2xl font-bold text-white">Watch everywhere</h2>
               <p className="text-gray-300 mt-2">
                 Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
@@ -59,7 +59,7 @@ const Cards = () => {
           <div className="h-full flex flex-col w-full bg-base-100 card-md shadow-sm 
                     bg-[linear-gradient(149deg,_#192247_0%,_#210e17_96.86%)] 
                     rounded-3xl">
-            <div className="py-10 px-7 flex flex-col flex-grow">
+            <div className="py-10 px-7 flex flex-col grow">
               <h2 className="text-2xl font-bold text-white">Create profiles for kids</h2>
               <p className="text-gray-300 mt-2">
                 Send kids on adventures with their favourite characters in a space made just for them — free with your membership.
